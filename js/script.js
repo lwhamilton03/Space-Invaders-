@@ -18,7 +18,7 @@ function move(){
 function runner() {
    
     window.setInterval(createAsteroid,1000);
-    window.setInterval(removeAsteroid,8000);
+    window.setInterval(removeAsteroid,4000);
     window.setInterval(moveAsteroid, 500);
      
 }
@@ -61,5 +61,10 @@ function moveAsteroid() {
             console.log(rock[i].style.top);
         }
 }
+
+function shootBullets(){
+    
+}
+
 
 
